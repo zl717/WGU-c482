@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar layoutX="6.0" layoutY="8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="314.0" layoutY="78.0" prefHeight="71.0" prefWidth="173.0" text="Inventory Management System" />
+      <Pane layoutX="14.0" layoutY="191.0" prefHeight="259.0" prefWidth="376.0" AnchorPane.leftAnchor="14.0">
+         <children>
+            <TableView layoutX="1.0" layoutY="60.0" prefHeight="156.0" prefWidth="376.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="Part ID" />
+                <TableColumn prefWidth="75.0" text="Part Name" />
+                  <TableColumn prefWidth="75.0" text="Inventory Level" />
+                  <TableColumn prefWidth="75.0" text="Cost Per Unit" />
+              </columns>
+            </TableView>
+            <Label layoutX="14.0" layoutY="16.0" prefHeight="17.0" prefWidth="56.0" text="Parts List" />
+            <Button layoutX="182.0" layoutY="12.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" text="search" />
+            <TextField layoutX="238.0" layoutY="12.0" prefHeight="25.0" prefWidth="133.0" />
+            <Button layoutX="80.0" layoutY="227.0" mnemonicParsing="false" text="Add" />
+            <Button layoutX="162.0" layoutY="227.0" mnemonicParsing="false" text="Modify" />
+            <Button layoutX="254.0" layoutY="227.0" mnemonicParsing="false" text="Delete" />
+         </children>
+      </Pane>
+      <Button layoutX="721.0" layoutY="35.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="EXIT" />
+      <Pane layoutX="400.0" layoutY="191.0" prefHeight="259.0" prefWidth="376.0">
+         <children>
+            <TableView layoutX="1.0" layoutY="60.0" prefHeight="156.0" prefWidth="376.0">
+               <columns>
+                  <TableColumn prefWidth="75.0" text="Part ID" />
+                  <TableColumn prefWidth="75.0" text="Part Name" />
+                  <TableColumn prefWidth="75.0" text="Inventory Level" />
+                  <TableColumn prefWidth="75.0" text="Cost Per Unit" />
+               </columns>
+            </TableView>
+            <Label layoutX="14.0" layoutY="16.0" prefHeight="17.0" prefWidth="73.0" text="Products List" />
+            <Button layoutX="182.0" layoutY="12.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" text="search" />
+            <TextField layoutX="238.0" layoutY="12.0" prefHeight="25.0" prefWidth="133.0" />
+            <Button layoutX="80.0" layoutY="227.0" mnemonicParsing="false" text="Add" />
+            <Button layoutX="162.0" layoutY="227.0" mnemonicParsing="false" text="Modify" />
+            <Button layoutX="254.0" layoutY="227.0" mnemonicParsing="false" text="Delete" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
